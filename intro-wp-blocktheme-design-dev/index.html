@@ -148,6 +148,7 @@
 					<h2>Agenda</h2>
 					<li>Figma basics</li>
           <li>Block theme basics</li>
+          <li>Child themes</li>
           <li>Full Site Editor (FSE)</li>
           <li>Version control in Github</li>
 					<li>Q & A</li>
@@ -200,13 +201,28 @@
 					<h3>What is a Block Theme?</h3>
           <h5>DEMO</h5>
 
-					<p>Block themes are built entirely with blocks. Each content type and layout option is a block:<br>
+					<p>Block themes are built entirely with blocks. <br>
+            Each content type and layout option is a block:<br>
             paragraphs, headings, images, navigation, headers, footers, etc.
             </p>
-            <p>How they differ from Classic themes tk</p>
 
-          <p></p>
-          <p>LATER IN THEME DEVELOPMENT: Use blocks to edit content and form patterns, template parts, templates          </p>
+				</section>
+
+        <!-- WHAT IS ? -->
+				<section>
+					<h3>What is a Block Theme?</h3>
+          <h4>How Block themes differ from Classic themes</h4>
+
+          <ul>
+          <li>Customization and Design</li>
+          <p>CLASSIC: Uses a Customizer. Theme settings, widgets, and Custom CSS</p>
+          <p>BLOCK: Uses Full Site Editor. Global settings get stored in DB. Custom CSS.</p>
+          <li>Underlying Code</li>
+          <p>CLASSIC: PHP templates - Functions.php</p>
+          <p>BLOCK: HTML templates - Theme.json</p>
+          </ul>
+
+
 				</section>
 
         <!-- PRACTICE -->
@@ -232,18 +248,27 @@
 
 
         <section>
-					<h2>Full Site Editor (FSE)</h2>
+					<h2>Child Themes</h2>
 				</section>
 
         <!-- DEMO -->
         <section>
-          <h3>Create Block Theme plugin</h3>
-            <h4>Child Themes</h4>
-            <p>Why we use child themes, their advantages, etc.</p>
-            <h5>DEMO</h5>
+          <h3>Child Themes</h3>
+            <h4>Create Block Theme plugin</h4>
+            <p>Child themes are customized versions of an original (“parent”) theme. If you make changes to the parent theme directly, you risk losing those changes whenever the theme is updated. The key benefit of a child theme is that you retain all of your customizations when the parent theme is updated. </p>
+            <p>One great feature of the Create Block Theme plugin is its ability to generate a child theme. </p>
+          
+        </section>
 
-            <p>Create and Save Changes to a Child Theme</p>
-            <p>Grasp core controls in Theme.json</p>
+        <!-- DEMO -->
+        <section>
+          <h3>Create Block Theme plugin</h3>
+            <h5>DEMO</h5>
+            <ul>
+              <li>Install and activate 2024 Theme</li>
+              <li>Create and Save Changes to a Child Theme</li>
+              <li>Grasp core controls in Theme.json</li>
+            </ul>
           
         </section>
 
@@ -254,7 +279,8 @@
 
 				<!-- PRACTICE -->
 				<section>
-					<h3>Create a Child Theme </h3>
+					<h3>Get Started: </h3>
+					<h4>Create a Child Theme </h4>
           <ul>
             <li>Use a unique name "xyz-child"</li>
             <li>Export .zip archive of the child theme</li>
@@ -262,20 +288,33 @@
           </ul>
 				</section>
 
+        <section>
+					<h2>Full Site Editor (FSE)</h2>
+				</section>
+
         <!-- DEMO -->
 				<section>
 					<h3>Full Site Editor (FSE)</h3>
-					<p>Explanation and descriptions</p>
-          <p>Demo UI and key areas</p>
+          <h5>DEMO</h5>
+          <ul>
+            <li>Introduce the FSE UI</li>
+            <li>Admin. menu</li>
+            <li>Global Styles area</li>
+          </ul>
           <p>Let’s get started with this fantastic tool and learn about some of its key features!</p>
 				</section>
 
 				<section>
 					<h3>Customize a theme with the FSE</h3>
           <h5>DEMO</h5>
-
-            <p>Modify Global Styles: colors, sizes, fonts</p>
-            <p>Add Custom CSS: unique color and size for a section heading</p>    
+          <ul>
+            <li>Global Styles </li>
+            <ul>
+            <li>Modify Global Styles: colors, sizes, fonts</li>
+            <li>Add Custom CSS: unique color and size for a section heading</li>
+            </ul>
+          </ul>
+                
 				</section>
 
         <!-- PRACTICE -->
@@ -285,21 +324,32 @@
 
 				<!-- PRACTICE -->
 				<section>
-					<h3>Modify Global Styles for </h3>
+					<h3>Get Started: </h3>
+					<h4>Modify Global Styles </h4>
           <ul>
-            <li>Color: Body text and heads</li>
-            <li>Size: Body text and heads</li>
-            <li>Fonts: Body text and heads</li>
+            <li><strong>Color: </strong>Body text and heads</li>
+            <li><strong>Size: </strong>Body text and heads</li>
+            <li><strong>Fonts: </strong>Body text and heads</li>
           </ul>
-          <p>&nbsp;</p>
-          <h3>Custom CSS</h3>
-          <ul>
-            <li>Create a custom style for an ID or a class of your choosing
-            Color: Body text and heads</li>
-          </ul>
+				</section>
 
-          <h4>NEXT SLIDE: Export .zip archive of the child theme</h4>
-          <h4>View the theme.json file</h4>
+				<!-- PRACTICE -->
+				<section>
+					<h3>Get Started: </h3>
+          <h4>Custom CSS</h4>
+          <ul>
+            <li>Create a custom style for an ID or a class of your choosing</li>
+          </ul>
+				</section>
+
+				<!-- PRACTICE -->
+				<section>
+					<h3>Put it Together </h3>
+          <h4>Update Child Theme</h4>
+          <ul>
+            <li>Export .zip archive of the child theme</li>
+            <li>View changes in theme.json </li>
+          </ul>
 				</section>
 
 
@@ -309,7 +359,7 @@
 				</section>
 
         <section>
-					<h3>STEP 2 - Install Github Desktop</h3>
+					<h3>Github Desktop</h3>
           <p>In order to take advantage of Github, we'll use Github Desktop. This application allows you to send and receive copies of files to and from your desktop and your Github repository.</p>
           <p>Since I’m a visual person, I shy away from Terminal (Command Line), which is the native app for Git. Github Desktop has a simple, friendly user-interface.</p>
         
@@ -327,7 +377,7 @@
 				</section>
 
         <section>
-					<h3>STEP 3 - Install Visual Studio Code</h3>
+					<h3>Visual Studio Code</h3>
 					<p>Visual Studio Code (VS Code) is my current preferred code editor, but you can use whatever you’re most comfortable with. VS Code is streamlined and has lots of features, such as a smooth integration with Github Desktop.</p>
         
           <p>Download <a href="https://code.visualstudio.com/">Visual Studio Code</a> and install.</p>
