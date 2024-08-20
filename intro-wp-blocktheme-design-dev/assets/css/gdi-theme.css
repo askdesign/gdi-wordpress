@@ -205,3 +205,13 @@ ul {
 .flex-item img {
 	margin: 0;
 }
+
+
+/* --- ASK customizations --- */
+.highlight-warm {
+	color:#ad5bf0;
+}
+
+.highlight-cool {
+	color:#29c615;
+}
